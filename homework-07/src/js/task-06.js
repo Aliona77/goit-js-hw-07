@@ -6,7 +6,7 @@ console.log(totalLength);
 inputEl.addEventListener('blur', onInputBlur);
 
 function onInputBlur(event) {
-    if (inputEl.value.length < length) {
+    if (inputEl.value.length < totalLength) {
         inputEl.classList.add("invalid");
     }
     else {
